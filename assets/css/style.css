@@ -82,7 +82,7 @@ footer {
     /* flexbox para el footer */
     display: flex;
     flex-direction: column; /*coloca los elementos en columna*/
-    align-items: center; /*centra los elementos horizontalmente*/
+    align-items: center; /*centra los elementos*/
 }
 footer p {
     margin: 1px;
