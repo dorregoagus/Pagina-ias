@@ -4,7 +4,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* tamaño, color y sombreado del contenedor */
+/* Agrego grid al contenedor principal */
 .contenedor {
+    display:grid; /*activa el grid*/
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
     width: 80%;
     margin: auto;
     background-color: white;
