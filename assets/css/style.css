@@ -79,9 +79,13 @@ footer {
     padding: 15px;
     margin-top: 20px;
     border-radius: 0 0 10px 10px;
+    /* flexbox para el footer */
+    display: flex;
+    flex-direction: column; /*coloca los elementos en columna*/
+    align-items: center; /*centra los elementos horizontalmente*/
 }
 footer p {
-    margin: 5px;
+    margin: 1px;
     font-size: 14px;
 }
 /* diseño del header (color, posición y tamaño de los contenidos) */
