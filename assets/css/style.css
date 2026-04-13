@@ -175,3 +175,9 @@ details {
     margin-top: 20px;
     border-left: 5px solid #48882f;
 }
+/* Grid para la lista de funciones */
+main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*dos columnas iguales*/
+    gap: 20px; /*espacio entre los elementos*/
+}
