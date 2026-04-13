@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instituto de Asistencia Social (IAS)</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+    <!-- inicio-->
+    <header>
+        <img src="https://www.ias.gob.ar/w2/img/logo_header.png" alt="Logo IAS" class="logo">
+    <h1>Instituto de Asistencia Social - IAS</h1>
+    <h2>Organismo de Control de Juegos de Azar - Formosa</h2>
+    </header>
+    <!-- Menú de navegación -->
+    <nav id= "Menú principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-ias.html">Sobre el IAS</a></li>
+            <li><a href="servicios.html">Funciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Contenido Principal-->
+         <!-- títulos y demás contenido informativo/de contacto sobre el IAS -->
+         <h2>Contacto</h2>
+         <section>
+            <h3>Información</h3>
+            <address>
+                Dirección: Av. 25 de Mayo 098, P3600ACK Formosa, Argentina
+            </address>
+            <!-- ubicación en el mapa -->
+            <a href="https://maps.app.goo.gl/xzu4ndB9xikmHd8SA" target="_blank">Ver en el mapa</a>
+            <ul>
+                <li>Teléfono: 3704-123456</li>
+                <li>Email: <a href="mailto:info.ias@gmail.com">info.ias@gmail.com</a></li>
+            </ul>
+         </section>
+         <!-- Formulario de contacto-->
+          <form id="formulario-contacto" action="#" method="post">
+            <label>Nombre:</label><br>
+            <input type="text" placeholder="Tu nombre" required><br><br>
+            <label>Email:</label><br>
+            <input type="email" placeholder="Tu email" required><br><br>
+            <label>Teléfono</label><br>
+            <input type="tel"placeholder="Tu teléfono"><br><br>
+            <label>Motivo</label><br>
+            <select>
+                <option>Consulta</option>
+                <option>Reclamo</option>
+                <option>Información</option>
+            </select><br><br>
+            <label>Mensaje</label><br>
+            <textarea placeholder="Escribí tu mensaje"></textarea><br>
+            <!-- botón para enviar el formulario -->
+            <button class="boton-enviar" type="submit">Enviar</button>
+          </form>
+          <details>
+            <!-- contenido del elemento desplegable que estó a la vista -->
+            <summary>Horarios de atención</summary>
+            <!-- contenido del elemento desplegable que está oculto -->
+            <p>Lunes a viernes de 8.00 a 13:00 hs</p>
+          </details>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Instituto de Asistencia Social - IAS.</p>
+        <p>Organismo de Control de Juegos de Azar</p>
+    </footer>
+</div>
+  </body>
+</html>

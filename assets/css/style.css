@@ -1,0 +1,170 @@
+/* Estilos generales*/
+/* fuente de todo el texto de la página */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* tamaño, color y sombreado del contenedor */
+.contenedor {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3)
+}
+/*  diseño de los títulos */
+h1,h2 {
+    color: rgb(91, 138, 37);
+    text-align: justify;
+}
+h2 {
+    border-bottom: 2px solid #48882f;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+}
+/* diseño de los Párrafos */
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+/* links en la página de contactos */
+a {
+    color: #445e1c;
+    text-decoration: none;
+}
+/* Menú */
+/* colores, posicionamiento, reacción */
+nav {
+    background-color: #48882f;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3;
+}
+nav ul li a:hover{
+    background-color: #3e681e;
+    border-radius: 5px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+/*Footer*/
+/* posición, tamaño y color del texto */
+footer {
+    background-color: #48882f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+/* diseño del header (color, posición y tamaño de los contenidos) */
+header {
+    background-color:#d9ef9f;
+    padding: 20px;
+    text-align: center
+}
+/* tamaño del banner con los logos */
+.logo {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+/* títulos del header */
+header h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+header h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #555
+}
+/* diseño del contenido de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #48882f;
+    color: white;
+}
+/* diseño de las clases (colores y tamaños) */
+.destacado {
+    background-color: #c4f5a3;
+    padding: 10px;
+    border-left: 5px solid #2e7d32;
+    font-weight: bold;
+}
+.servicio-item {
+    background-color: #c8ee9d;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #2e7d32;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.servicio-item:hover {
+    background-color: #9fc46f;
+}
+#formulario-contacto {
+    gap: 10px;
+    margin-top: 20px;
+}
+.boton-enviar {
+    background-color: #48882f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* tamaño y posición de las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* diseño de los campos de entrada */
+input,select,textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/* diseño del texto visible en el elemento desplegable */
+summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #48882f;
+}
+/* diseño del marco del elemento desplegable */
+details {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-left: 5px solid #48882f;
+}
