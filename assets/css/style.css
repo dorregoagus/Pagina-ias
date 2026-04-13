@@ -181,3 +181,15 @@ main ul {
     grid-template-columns: 1fr 1fr; /*dos columnas iguales*/
     gap: 20px; /*espacio entre los elementos*/
 }
+/* Flexbox para formulario de contacto */
+form {
+    display: flex;
+    flex-wrap: wrap; /*permite que bajen de linea*/
+    gap: 15px; /*espacio entre los campos*/
+}
+form input, form select {
+    width: 100%; /*hace que los campos ocupen todo el ancho disponible*/
+}
+form textarea, form button {
+    width: 100%; /*también para el ancho*/
+}
